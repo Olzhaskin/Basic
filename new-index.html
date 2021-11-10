@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
+    <title>Landing page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-lightgreen" id="nb">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/portfolio.svg" alt="" width="50" class="d-inline-block align-text-top">
+                Company name
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">О нас</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Каталог</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Как заказать</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Отзывы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Контакты</a>
+                  </li>
+                </ul>
+                <span class="nav-item text-light">+7 (777) 1111-22-33</span>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="first-section">
+          <div class="container-fluid p-0" id="first-section-wrapper">
+            <div id="carouselFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+                <div class="carousel-inner" id="first-section-carousel">
+                    <div class="carousel-item active background-img1" data-bs-interval="5000">
+                    </div>
+                    <div class="carousel-item background-img2" data-bs-interval="5000">
+                    </div>
+                    <div class="carousel-item background-img3" data-bs-interval="5000">
+                    </div>
+                    <div class="carousel-item background-img4" data-bs-interval="5000">
+                    </div>
+                </div>
+                <div class="row justify-content-md-center align-items-center row-front" id="row-full-height">
+                  <div class="col-md-6 text-light text-center d-flex flex-column align-items-center first-section-topic">
+                    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
+                    <ul class="list-inline mt-5">
+                      <li class="list-inline-item"><button class="btn btn-outline-light btn-lg rounded-pill">Заказать звонок</button></li>
+                      <li class="list-inline-item"><a href="#" class="btn btn-outline-light btn-lg rounded-pill">Скачать прайс-лист</a></li>
+                    </ul>
+                    <svg class="d-none d-sm-inline-block arrows">
+                      <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                      <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                      <path class="a3" d="M0 40 L30 72 L60 40"></path>
+                    </svg>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+        <section class="second-section mt-3">
+          <div class="container-fluid">
+            <h2 class="text-brown text-center fw-bold">О нашей компании</h2>
+            <div class="row justify-content-md-center my-4 align-items-center">
+              <div class="col-md-5 d-flex justify-content-end">
+                <img src="images/horse-profile.jpg" alt="company profile" class="img-fluid rounded-2" >
+              </div>
+              <div class="col-md-5">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aut exercitationem error distinctio debitis vero ipsum facere voluptas ullam fugiat placeat, tempora, labore repudiandae sequi, laudantium recusandae assumenda quod excepturi.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quaerat doloribus facere quia cum perferendis quos quidem tempora ex, autem officiis recusandae incidunt accusamus impedit fuga eum ea, rerum natus!</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p>- <u>Onions</u>: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam soluta, quibusdam quos tempora non nisi deserunt. Ipsum doloremque vero qui adipisci repellat consectetur quasi, temporibus, voluptatum nulla tempore quos delectus!</p>
+                <p>- <u>Sunflowers</u>: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam soluta, quibusdam quos tempora non nisi deserunt. Ipsum doloremque vero qui adipisci repellat consectetur quasi, temporibus, voluptatum nulla tempore quos delectus!</p>
+                <p>- <u>Wheat</u>: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam soluta, quibusdam quos tempora non nisi deserunt. Ipsum doloremque vero qui adipisci repellat consectetur quasi, temporibus, voluptatum nulla tempore quos delectus!</p>
+                <p>- <u>Soy pods</u>: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam soluta, quibusdam quos tempora non nisi deserunt. Ipsum doloremque vero qui adipisci repellat consectetur quasi, temporibus, voluptatum nulla tempore quos delectus!</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="third-section mt-3">
+          <div class="container-fluid">
+            <h2 class="text-brown text-center fw-bold">Наши продукты</h2>
+            <div class="row row-cols-md-2 justify-content-md-center align-items-start g-4">
+              <div class="col-md-5">
+                <div class="card bg-transparent border-0">
+                  <div class="ratio ratio-16x9">
+                    <img src="images/onion-open.jpg" alt="" class="img-fluid rounded-3 back-image card-img-top">
+                    <img src="images/onions.jpg" alt="" class="img-fluid rounded-3 front-image card-img-top">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-brown fw-bold">Лук</h5>
+                    <p class="card-text justify-text">Лук ре́пчатый (лат. Állium cépa) — многолетнее травянистое растение, вид рода Лук (Allium) семейства Луковые (Alliaceae), широко распространённая овощная культура.</p>
+                  </div>
+                  <div class="row row-cols-md-2 justify-content-center">
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-end">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-start mt-3 mt-md-0">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ПОДРОБНЕЕ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="card bg-transparent border-0">
+                  <div class="ratio ratio-16x9">
+                    <img src="images/soybean-open.jpg" alt="" class="img-fluid rounded-3 back-image card-img-top">
+                    <img src="images/soybeans.jpg" alt="" class="img-fluid rounded-3 front-image card-img-top">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-brown fw-bold">Соевые бобы</h5>
+                    <p class="card-text justify-text">Со́я культу́рная (лат. Glycine max) — однолетнее травянистое растение, вид рода Соя (Glycine) семейства Бобовые.</p>
+                    <p class="card-text justify-text">Культурная соя широко возделывается в более чем 60 странах на всех континентах. Семена сои, не совсем точно называемые «соевыми бобами» (от англ. soya bean, soybean), — широко распространённый продукт, известный ещё в третьем тысячелетии до нашей эры.</p>
+                    <p class="card-text justify-text">Соя — самая распространенная среди зернобобовых и масличных культур. Она служит сырьем для широкого спектра пищевых продуктов, а высокое содержание белка и ценных пищевых компонентов позволяет использовать её в качестве недорогого и полезного заменителя мяса и молочных продуктов.</p>
+                  </div>
+                  <div class="row row-cols-md-2 justify-content-center">
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-end">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-start mt-3 mt-md-0">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ПОДРОБНЕЕ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="card bg-transparent border-0">
+                  <div class="ratio ratio-16x9">
+                    <img src="images/sunseed-open.jpg" alt="" class="img-fluid rounded-3 back-image card-img-top">
+                    <img src="images/sunflower-seeds.jpg" alt="" class="img-fluid rounded-3 front-image card-img-top">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-brown fw-bold">Семечки</h5>
+                    <p class="card-text justify-text">Се́мечки подсо́лнечника (разг. — семечки, бубочки, мякушки) — семена подсолнечника однолетнего (Helianthus annuus). Используются в первую очередь для производства подсолнечного масла, которое затем употребляется для приготовления пищи или для технических нужд. Гидрогенизацией подсолнечного масла получают саломас. Масло также используется в лакокрасочной промышленности.</p>
+                    <p class="card-text justify-text">Подсолнечник однолетний выращивается практически во всём мире. Наиболее крупные производители семян подсолнечника в мире — Украина, Россия и Аргентина.</p>
+                  </div>
+                  <div class="row row-cols-md-2 justify-content-center">
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-end">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-start mt-3 mt-md-0">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ПОДРОБНЕЕ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="card bg-transparent border-0">
+                  <div class="ratio ratio-16x9">
+                    <img src="images/wheat-open.jpg" alt="" class="img-fluid rounded-3 back-image card-img-top">
+                    <img src="images/wheat-seeds.jpg" alt="" class="img-fluid rounded-3 front-image card-img-top">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-brown fw-bold">Пшеница</h5>
+                    <p class="card-text justify-text">Пшени́ца (лат. Tríticum) — род травянистых, в основном однолетних, растений семейства Злаки, или Мятликовые (Poaceae), ведущая зерновая культура во многих странах.</p>
+                    <p class="card-text justify-text">Получаемая из зёрен пшеницы мука используется при выпекании хлеба, изготовлении макаронных и кондитерских изделий. Пшеница также используется как кормовая культура, входит в некоторые рецепты приготовления пива и водки, а также виски.</p>
+                  </div>
+                  <div class="row row-cols-md-2 justify-content-center">
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-end">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-start mt-3 mt-md-0">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ПОДРОБНЕЕ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="card bg-transparent border-0">
+                  <div class="ratio ratio-16x9">
+                    <img src="images/watermelon-open.jpg" alt="" class="img-fluid rounded-3 back-image card-img-top">
+                    <img src="images/watermelons.jpg" alt="" class="img-fluid rounded-3 front-image card-img-top">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-brown fw-bold">Арбузы</h5>
+                    <p class="card-text justify-text">Арбу́з обыкнове́нный (лат. Citrúllus lanátus), или арбу́з шерсти́стый, или арбу́з столо́вый — однолетнее травянистое растение, вид рода Арбуз (Citrullus) семейства Тыквенные (Cucurbitaceae). В зависимости от сорта может быть столового или кормового назначения. В качестве кормового также используется арбуз кормовой[en] (Citrullus colocynthoides).</p>
+                    <p class="card-text justify-text">Бахчевая культура. Плод — тыквина, шаровидной, овальной, уплощённой или цилиндрической формы; окраска коры от белой и жёлтой до тёмно-зелёной с рисунком в виде полосок и пятен; мякоть, как правило, розовая, красная, малиновая, реже — белая и жёлтая.</p>
+                  </div>
+                  <div class="row row-cols-md-2 justify-content-center">
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-end">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-start mt-3 mt-md-0">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ПОДРОБНЕЕ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="card bg-transparent border-0">
+                  <div class="ratio ratio-16x9">
+                    <img src="images/beetroot-open.jpg" alt="" class="img-fluid rounded-3 back-image card-img-top">
+                    <img src="images/beetroots.jpg" alt="" class="img-fluid rounded-3 front-image card-img-top">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-brown fw-bold">Свекла</h5>
+                    <p class="card-text justify-text">Свёкла обыкнове́нная (лат. Béta vulgáris) — однолетнее, двулетнее или многолетнее травянистое растение; вид рода Свёкла семейства Амарантовые (ранее род относился к семейству Маревые). Культивируется на больших площадях повсеместно.</p>
+                    <p class="card-text justify-text">В юго-западных областях России, в Белоруссии и на Украине растение называют бура́к, или буря́к.</p>
+                  </div>
+                  <div class="row row-cols-md-2 justify-content-center">
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-end">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-start mt-3 mt-md-0">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ПОДРОБНЕЕ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="card bg-transparent border-0">
+                  <div class="ratio ratio-16x9">
+                    <img src="images/tomato-open.jpg" alt="" class="img-fluid rounded-3 back-image card-img-top">
+                    <img src="images/tomatoes.jpg" alt="" class="img-fluid rounded-3 front-image card-img-top">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-brown fw-bold">Помидоры</h5>
+                    <p class="card-text justify-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="row row-cols-md-2 justify-content-center">
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-end">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-start mt-3 mt-md-0">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ПОДРОБНЕЕ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="card bg-transparent border-0">
+                  <div class="ratio ratio-16x9">
+                    <img src="images/cucumber-open.jpg" alt="" class="img-fluid rounded-3 back-image card-img-top">
+                    <img src="images/cucumbers.jpg" alt="" class="img-fluid rounded-3 front-image card-img-top">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-brown fw-bold">Огурцы</h5>
+                    <p class="card-text justify-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="row row-cols-md-2 justify-content-center">
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-end">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-start mt-3 mt-md-0">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ПОДРОБНЕЕ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="card bg-transparent border-0">
+                  <div class="ratio ratio-16x9">
+                    <img src="images/potato-open.jpg" alt="" class="img-fluid rounded-3 back-image card-img-top">
+                    <img src="images/potatoes.jpg" alt="" class="img-fluid rounded-3 front-image card-img-top">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-brown fw-bold">Картошка</h5>
+                    <p class="card-text justify-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="row row-cols-md-2 justify-content-center">
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-end">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-start mt-3 mt-md-0">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ПОДРОБНЕЕ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="card bg-transparent border-0">
+                  <div class="ratio ratio-16x9">
+                    <img src="images/corn-open.jpg" alt="" class="img-fluid rounded-3 back-image card-img-top">
+                    <img src="images/corn.jpg" alt="" class="img-fluid rounded-3 front-image card-img-top">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-brown fw-bold">Кукуруза</h5>
+                    <p class="card-text justify-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="row row-cols-md-2 justify-content-center">
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-end">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-center justify-content-md-start mt-3 mt-md-0">
+                      <button class="btn btn-outline-dark btn-sm rounded-pill">ПОДРОБНЕЕ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="fourth-section mt-3">
+          <div class="container-fluid">
+            <h2 class="text-brown text-center fw-bold">Наши исполненные заказы</h2>
+            <div class="row row-cols-md-5 justify-content-md-center align-items-start g-4">
+              <div class="col-12 col-sm-12 col-md">
+                <div class="card bg-black text-white text-center small-card border-0">
+                  <div class="ratio ratio-4x3">
+                    <img src="images/delivery1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex align-items-center">
+                      <p class="card-text invisible-text text-light">Доставка лука в Казахстан, г. Усть Каменогорск - 29.09.2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md">
+                <div class="card bg-black text-white text-center small-card border-0">
+                  <div class="ratio ratio-4x3">
+                    <img src="images/delivery2.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex align-items-center">
+                      <p class="card-text invisible-text text-light">Доставка лука в Казахстан, г. Алматы - 30.08.2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md">
+                <div class="card bg-black text-white text-center small-card border-0">
+                  <div class="ratio ratio-4x3">
+                    <img src="images/delivery3.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex align-items-center">
+                      <p class="card-text invisible-text text-light">Доставка лука в Казахстан, г. Нур-Султан - 01.02.2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md">
+                <div class="card bg-black text-white text-center small-card border-0">
+                  <div class="ratio ratio-4x3">
+                    <img src="images/delivery4.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex align-items-center">
+                      <p class="card-text invisible-text text-light">Доставка лука в Казахстан, г. Караганды - 15.03.2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md">
+                <div class="card bg-black text-white text-center small-card border-0">
+                  <div class="ratio ratio-4x3">
+                    <img src="images/delivery5.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex align-items-center">
+                      <p class="card-text invisible-text text-light">Доставка лука в Казахстан, г. Туркестан - 31.05.2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md">
+                <div class="card bg-black text-white text-center small-card border-0">
+                  <div class="ratio ratio-4x3">
+                    <img src="images/delivery6.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex align-items-center">
+                      <p class="card-text invisible-text text-light">Доставка лука в Казахстан, г. Шымкент - 03.07.2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md">
+                <div class="card bg-black text-white text-center small-card border-0">
+                  <div class="ratio ratio-4x3">
+                    <img src="images/delivery7.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex align-items-center">
+                      <p class="card-text invisible-text text-light">Доставка лука в Казахстан, г. Актау - 03.06.2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md">
+                <div class="card bg-black text-white text-center small-card border-0">
+                  <div class="ratio ratio-4x3">
+                    <img src="images/delivery8.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex align-items-center">
+                      <p class="card-text invisible-text text-light">Доставка лука в Казахстан, г. Тараз - 08.02.2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md">
+                <div class="card bg-black text-white text-center small-card border-0">
+                  <div class="ratio ratio-4x3">
+                    <img src="images/delivery9.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex align-items-center">
+                      <p class="card-text invisible-text text-light">Доставка лука в Казахстан, г. Кызылорда - 15.04.2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md">
+                <div class="card bg-black text-white text-center small-card border-0">
+                  <div class="ratio ratio-4x3">
+                    <img src="images/delivery10.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex align-items-center">
+                      <p class="card-text invisible-text text-light">Доставка лука в Казахстан, г. Павлодар - 25.05.2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 d-flex justify-content-center align-items-center gx-0 mt-md-5">
+                <button class="btn btn-outline-dark btn-lg rounded-pill px-md-5">Смотреть еще</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="fifth-section mt-3">
+          <div class="container-fluid">
+            <h2 class="text-brown text-center fw-bold">Условия поставки</h2>
+            <div class="row justify-content-md-center my-4 align-items-center">
+              <div class="col-md-5 d-flex justify-content-end">
+                <img src="images/KIA-Bongo-3.png" alt="Delivery truck, KIA-Bongo-3" class="img-fluid" >
+              </div>
+              <div class="col-md-5">
+                <p class="text-brown fw-bold text-uppercase">До 34 кг</p>
+                <p class="fw-bold text-uppercase">Самоотгрузка</p>
+                <p class="text-brown fw-bold text-uppercase">От 34 кг до 500 кг</p>
+                <p class="fw-bold text-uppercase">Отгрузка нашими транспортными средствами - 2000 тг</p>
+                <p class="fw-bold text-uppercase">KIA-Bongo-3</p>
+                <p class="text-brown fw-bold text-uppercase">От 500 кг</p>
+                <p class="fw-bold text-uppercase">Отгрузка Транспортными компаниями:</p>
+                <p class="fw-bold text-uppercase">Компания 1, компания 2, компания 3</p>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

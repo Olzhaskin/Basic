@@ -1,0 +1,13 @@
+.justify-text {
+    text-align: justify;
+}
+
+.front-image {
+    transition: .3s;
+}
+
+.front-image:hover {
+    cursor: pointer;
+    opacity: 0;
+    transition-duration: .3s;
+}
