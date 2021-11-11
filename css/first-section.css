@@ -1,15 +1,35 @@
-.background-img {
+.home-screen {
+	height: 100vh;
+	width: 100%;
+	flex-direction: column;
+}
+
+/* .background-img {
     background-image: url(../images/farming.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+} */
+
+.first-section {
+	width: 100%;
+	flex-grow: 1;
 }
 
 #first-section-wrapper {
+	height: 100%;
     /* overflow: hidden; скорее всего не нужно*/
 	position: relative;
+}
+
+.carousel {
+	height: 100%;
+}
+
+.carousel-inner {
+	height: 100%;
 }
 
 .first-section-topic {
@@ -60,6 +80,7 @@
 	position: absolute;
 	z-index: 9999;
 	width: 100%;
+	height: 100%;
 	top: 0;
 	left: 0;
 	padding: 0;

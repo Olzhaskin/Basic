@@ -13,9 +13,9 @@ let firstSectionCarousel = document.getElementById('first-section-carousel');
 // let cucumbersImage = document.getElementById('cucumbers-image');
 // let potatoesImage = document.getElementById('potatoes-image');
 // let cornImage = document.getElementById('corn-image');
-firstSectionWrapper.style.height = window.innerHeight - navbarHeight - onepixel + 'px';
-rowFullHeight.style.height = firstSectionWrapper.style.height;
-firstSectionCarousel.style.height = firstSectionWrapper.style.height;
+// firstSectionWrapper.style.height = window.innerHeight - navbarHeight - onepixel + 'px';
+// rowFullHeight.style.height = firstSectionWrapper.style.height;
+// firstSectionCarousel.style.height = firstSectionWrapper.style.height;
 // function onHover() {
 //     if (event.target.id == 'onions-image') {
 //         onionsImage.src = 'images/onion-open.jpg';
