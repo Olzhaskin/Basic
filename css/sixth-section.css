@@ -1,0 +1,19 @@
+.sixth-section {
+    padding-top: 6rem;
+    padding-bottom: 6rem
+}
+
+.sixth-section span {
+    background-color: brown;
+    content: "";
+    width: 3rem;
+    height: 3rem;
+}
+
+.sixth-section img:first-child {
+    width: 70%;
+}
+
+.sixth-section img:last-child {
+    width: 60%;
+}
