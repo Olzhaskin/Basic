@@ -12,8 +12,14 @@
 
 .sixth-section img:first-child {
     width: 70%;
+    transition: .4s;
 }
 
 .sixth-section img:last-child {
     width: 60%;
+    transition: .4s;
+}
+
+.sixth-section span:hover img {
+    filter: invert(1);
 }
